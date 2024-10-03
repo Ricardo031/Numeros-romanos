@@ -3,7 +3,7 @@ function integerRoman(n) { //n = numero
     const value = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     const romans = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
 
-    let res = '';
+    let res = '';//variable acumulador
 
     value.forEach((value, i) => { //extraigo su indice
         while(n >= value) { // mientras que el numero sea mayor o igual al valor que esta en el array.
